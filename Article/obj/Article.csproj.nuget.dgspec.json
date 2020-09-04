@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cagat\\source\\repos\\Article\\Article\\Article.csproj": {}
+    "C:\\Users\\cagat\\Source\\Repos\\ASP.NET-Core-Repository-Pattern\\Article\\Article.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cagat\\source\\repos\\Article\\Article\\Article.csproj": {
+    "C:\\Users\\cagat\\Source\\Repos\\ASP.NET-Core-Repository-Pattern\\Article\\Article.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cagat\\source\\repos\\Article\\Article\\Article.csproj",
+        "projectUniqueName": "C:\\Users\\cagat\\Source\\Repos\\ASP.NET-Core-Repository-Pattern\\Article\\Article.csproj",
         "projectName": "Article",
-        "projectPath": "C:\\Users\\cagat\\source\\repos\\Article\\Article\\Article.csproj",
+        "projectPath": "C:\\Users\\cagat\\Source\\Repos\\ASP.NET-Core-Repository-Pattern\\Article\\Article.csproj",
         "packagesPath": "C:\\Users\\cagat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cagat\\source\\repos\\Article\\Article\\obj\\",
+        "outputPath": "C:\\Users\\cagat\\Source\\Repos\\ASP.NET-Core-Repository-Pattern\\Article\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cagat\\AppData\\Roaming\\NuGet\\NuGet.Config",

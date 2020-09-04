@@ -16,30 +16,29 @@ namespace Article.Controllers
     public class ArticleController : ControllerBase
     {
 
-        private ArticlesDbContext _context;
+        private ArticlesDbContext context;
         private IRepository<Articles, int> repository;
         bool autoSave = true;
 
-        public ArticleController(IRepository<Articles, int> repository)
-        {
-            this.repository = repository;
-        }
 
-        public ArticleController(ArticlesDbContext context)
+        public ArticleController(ArticlesDbContext context, IRepository<Articles, int> repository)
         {
-            _context = context;
+            this.context = context;
+            this.repository = repository;
         }
         [HttpGet]
         public async Task<ActionResult> GetArticle()
         {
-            var response = repository.GetListAsync();
+            var response = repository
+                .GetListAsync();
             return Ok(response);
         }
 
         [HttpDelete]
         public async Task<ActionResult> DeleteArticle(int id)
         {
-            var removeArticle = repository.DeleteAsync(id, autoSave);
+            var removeArticle = repository
+                .DeleteAsync(id, autoSave);
 
             return Ok(removeArticle);
         }
@@ -47,14 +46,16 @@ namespace Article.Controllers
          
         public async Task<ActionResult> AddArticle(Articles articles)
         {
-            var response = repository.AddAsync(articles, autoSave);
+            var response = repository
+                .AddAsync(articles, autoSave);
 
             return Ok(response);
         }
         [HttpPut]
         public async Task<ActionResult> UpdateArticle(Articles articles)
         {
-            var response = repository.UpdateAsync(articles, autoSave);
+            var response = repository
+                .UpdateAsync(articles, autoSave);
 
             return Ok(response);
         }

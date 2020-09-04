@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iurz8URpPu73GTbJsI2Op0IcCA23u/XN6Klnnu1R6lc7uNeYXWbQwUT0IqE73rTO7xde5Z3qvL4whOKJVwUGIQ==",
+  "dgSpecHash": "IDPrePkypOF+Ea2AWztBE0G8l0nAn1Bh+DFyemn98aeuPWxrxjADecmPEZHfFWNkOkEVhnMqI/GWjn89tq9w/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cagat\\source\\repos\\Article\\Article\\Article.csproj",
+  "projectFilePath": "C:\\Users\\cagat\\Source\\Repos\\ASP.NET-Core-Repository-Pattern\\Article\\Article.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagat\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\cagat\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
